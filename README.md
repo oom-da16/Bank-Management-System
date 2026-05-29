@@ -78,8 +78,7 @@ the fundamentals of programming.
 45. WHILE attempts < maxAttempts: 
 46.     Prompt for account number and password (masked) 
 47.     IF inputAccount == accountNumber AND inputPassword == accountPassword: 
-48.         
-isLoggedIn = true → show 'Welcome' → RETURN 
+48.         isLoggedIn = true → show 'Welcome' → RETURN 
 49.     ELSE: attempts++ → show remaining attempts 
 50. END WHILE (3 failures) 
 51. Display 'Account Locked' → call Environment.Exit(0) 
