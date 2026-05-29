@@ -1,10 +1,12 @@
 *1. Project Overview* 
+
 The Bank Management System is a beginner-level C# Console Application that simulates a real-world 
 banking environment. Built entirely on structured programming concepts, it requires no prior knowledge 
 of object-oriented programming (OOP), making it ideal as a university mini-project for students learning 
 the fundamentals of programming. 
 
 *1.1  What the Application Does* 
+
 • Lets a user create a single bank account with full validation 
 • Protects the account with a password-based login system 
 • Supports deposits, withdrawals, balance checks, and fund transfers 
@@ -30,6 +32,7 @@ the fundamentals of programming.
 
 
 *2.  Deposit Money*
+
 13. START 
 14. Call CheckAccountAccess() → if false, STOP 
 15. Display current balance 
@@ -42,6 +45,7 @@ the fundamentals of programming.
 
 
 *3.  Withdraw Money* 
+
 22. START 
 23. Call CheckAccountAccess() → if false, STOP 
 24. Display current balance 
@@ -55,6 +59,7 @@ the fundamentals of programming.
 32. END 
 
 *4. Transfer Money* 
+
 33. START 
 34. Call CheckAccountAccess() → if false, STOP 
 35. Prompt for target account number → validate 10 digits AND != own account 
@@ -67,6 +72,7 @@ the fundamentals of programming.
 42. END 
 
 *5.  Login Algorithm* 
+
 43. START 
 44. attempts = 0, maxAttempts = 3 
 45. WHILE attempts < maxAttempts: 
